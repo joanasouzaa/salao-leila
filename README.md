@@ -21,14 +21,13 @@ Este projeto foi desenvolvido como teste prático para a empresa [DSIN](https://
 gh repo clone joanasouzaa/salao-leila
 ```
 - Execute a aplicação com o Live Server do VS Code a partir da página principal (main.html)
-
-https://github.com/joanasouzaa/salao-leila/assets/138633905/29f30e50-7301-4df2-8b70-c82c8207e9bf
-
-- Após clicar no botão de agendamento, o sistema irá gerar um arquivo .txt
 ![agendamento](https://github.com/joanasouzaa/salao-leila/assets/138633905/f6e42a59-2dcc-431b-b07c-f59d721744a2)
 
-
+- Após clicar no botão de agendamento, o sistema irá gerar um arquivo .txt
 https://github.com/joanasouzaa/salao-leila/assets/138633905/d6ff9f2a-d1ea-47b4-b71a-4cf91a59a90f
+
+
+
 
 
 
