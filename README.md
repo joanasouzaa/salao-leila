@@ -24,7 +24,7 @@ gh repo clone joanasouzaa/salao-leila
 ![agendamento](https://github.com/joanasouzaa/salao-leila/assets/138633905/f6e42a59-2dcc-431b-b07c-f59d721744a2)
 
 - Após clicar no botão de agendamento, o sistema irá gerar um arquivo .txt
-https://github.com/joanasouzaa/salao-leila/assets/138633905/d6ff9f2a-d1ea-47b4-b71a-4cf91a59a90f
+![agendamento](https://github.com/joanasouzaa/salao-leila/assets/138633905/79f9921f-a1c6-45de-8281-cb869f3c8f2f)
 
 
 
