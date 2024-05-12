@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/agendamento.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag@3.0.1/dist/css/multi-select-tag.css">
+
+
+
+    <title>Agendamento</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="card-agendamento">
+            <div class="card-login">
+                <div>
+                    <form id="login-form">
+                        <h2>agende agora!</h2>
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <label>Escolha o procedimento</label>
+                                <select id="procedimento" required multiple>
+                                    <option>Corte</option>
+                                    <option>Escova</option>
+                                    <option>Coloração</option>
+                                    <option>Luzes</option>
+                                    <option>Selagem</option>
+                                    <option>Progressiva</option>
+                                    <option>Manicure</option>
+                                    <option>Pedicure</option>
+                                    <option>Depilação</option>
+                                </select>
+
+                            </div>
+
+                            <div class="form-inputs">
+                                <label for="data">Data:</label>
+                                <input type="date" name="data" id="data">
+                            </div>
+
+                            <div class="form-inputs">
+                                <label for="horario">Escolha o horário</label>
+                                <select id="horario" multiple="false">
+                                    <option value="08:00">08:00</option>
+                                    <option value="08:30">08:30</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="09:30">09:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                </select>
+                            </div>
+                        </div>
+                </div>
+                </form>
+                <button onclick="agendamento()">Agendar horário</button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div>
+            <p>&copy; 2024 Joana Amorim de Souza</p>
+            <p>Teste DSIN</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag@3.0.1/dist/js/multi-select-tag.js"></script>
+    <script>
+        new MultiSelectTag('procedimento')  // id
+    </script>
+    <script>
+        new MultiSelectTag('horario')  // id
+    </script>
+
+<script src="../scripts/login_page.js"></script>
+
+</body>
+
+</html>

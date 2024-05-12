@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans:wght@400;700&family=Oxanium:wght@400;700&family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap');
+
+
+
+body{
+    margin: 0;
+    font-family:'Noto Sans', sans-serif;;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-agendamento{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-agendamento h1{
+    color: #ccc;
+    font-size: 3vw;
+}
+
+form h2{
+    color: #514869;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.card-login{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #b998b3;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login h1{
+    color: #514869;
+    font-weight: 800;
+    margin: 0;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 1rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    color: #ccc;
+    float: left;
+}
+
+.form-control input{
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f3f3f3;
+    outline: none;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-inputs select{
+    outline: none;
+    border: none;
+    width: auto;
+    height: 45px;
+    border-radius:0.4rem;
+    margin-bottom: 1rem;
+}
+button{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color:#726c81;
+    color: #ccc;
+    cursor: pointer;
+    opacity: 0.7;
+    flex: 1;
+    border: none;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover{
+    opacity: 1;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer{
+    border-top: 2px solid #b998b3;
+    background-color: #201b2c;
+    font-weight: bold;
+    color: #ccc;
+}
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login_page.css">
+
+    <title>Cabeleleila Leila</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Bem-vindo(a) ao<br>Salão da Leila!</h1>
+            <p>Cabeleireira Leila, Leila Cabeleireiros <br>
+            Cabelos, unhas, hidratação e unhas 💫</p>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <div>
+                    <form id="login-form">
+                        <h2>Dados Pessoais</h2>
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <label for="nome">Nome completo:</label>
+                                <input type="text" name="nome" id="nome">
+                            </div>
+        
+                            <div class="form-inputs">
+                                <label for="sobrenome">Telefone</label>
+                                <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone com DDD...">
+                            </div>
+        
+                            <div class="form-inputs">
+                                <label for="primeira_vez">É sua primeira vez em nosso salão?</label>
+                                <select name="primeira_vez" id="primeira_vez">
+                                    <option value="selecionar">Selecionar</option>
+                                    <option value="sim">Sim</option>
+                                    <option value="nao">Não</option>
+                                </select>
+        
+                                <div class="form-inputs">
+                                    <label for="idade">Data de nascimento</label>
+                                    <input type="date" name="idade" id="idade">
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="email">Qual o seu melhor e-mail?</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                            </div>
+                        </div>
+                    </form>        
+                </div>
+                <a href="/html/agendamento.html" target="_blank" onclick="login_page()">Clique aqui para agendar</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>&copy; 2024 Joana Amorim de Souza</p>
+            <p>Teste DSIN</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/login_page.js"></script>
+</body>
+</html>
