@@ -21,7 +21,7 @@ gh repo clone joanasouzaa/salao-leila
 ```
 - Execute a aplicação com o Live Server do VS Code a página principal (main.html)
 
-https://github.com/joanasouzaa/salao-leila/assets/138633905/29f30e50-7301-4df2-8b70-c82c8207e9bf
+![funcionamento-siste](https://github.com/joanasouzaa/salao-leila/assets/138633905/29f30e50-7301-4df2-8b70-c82c8207e9bf)
 
 - Após clicar no botão de agendamento, o sistema irá gerar um arquivo .txt
 
